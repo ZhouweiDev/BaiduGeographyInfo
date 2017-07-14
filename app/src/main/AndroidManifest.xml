@@ -33,14 +33,8 @@
 
         <service android:name="com.baidu.location.f" android:enabled="true"
 
-            android:process=":remote">
-        <intent-filter>
-            <action android:name="com.baidu.location.service_v2.4"/>
+            android:process=":remote"/>
 
-        </intent-filter>
-
-
-        </service>
     </application>
 
 </manifest>
